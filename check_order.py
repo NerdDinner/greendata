@@ -1,3 +1,6 @@
+#Написать алгоритмы по пункту 3 
+
+
 from datetime import datetime, time
 
 # проверка суммы заказа
