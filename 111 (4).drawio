@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="IfVxdMSptycTVOEaxW_P">
+    <mxGraphModel dx="1030" dy="987" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w3biVsovSEv6TzyYamuo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Решение (Документ)" vertex="1">
+          <mxGeometry height="60" width="140" x="190" y="-86" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-2" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="Pool" vertex="1">
+          <mxGeometry height="380" width="480" x="76" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-3" parent="w3biVsovSEv6TzyYamuo-2" style="swimlane;html=1;startSize=20;horizontal=0;" value="Участник согласования" vertex="1">
+          <mxGeometry height="120" width="480" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-8" edge="1" parent="w3biVsovSEv6TzyYamuo-3" source="w3biVsovSEv6TzyYamuo-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="w3biVsovSEv6TzyYamuo-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-6" parent="w3biVsovSEv6TzyYamuo-3" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="45" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-10" edge="1" parent="w3biVsovSEv6TzyYamuo-3" source="w3biVsovSEv6TzyYamuo-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="w3biVsovSEv6TzyYamuo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-7" parent="w3biVsovSEv6TzyYamuo-3" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="Согласование" vertex="1">
+          <mxGeometry height="60" width="120" x="158" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-9" parent="w3biVsovSEv6TzyYamuo-3" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="323" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-11" parent="w3biVsovSEv6TzyYamuo-3" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" value="Согласовал?" vertex="1">
+          <mxGeometry height="50" width="50" x="398" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-14" edge="1" parent="w3biVsovSEv6TzyYamuo-3" source="w3biVsovSEv6TzyYamuo-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="w3biVsovSEv6TzyYamuo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-4" parent="w3biVsovSEv6TzyYamuo-2" style="swimlane;html=1;startSize=20;horizontal=0;" value="Lane 2" vertex="1">
+          <mxGeometry height="120" width="480" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-5" parent="w3biVsovSEv6TzyYamuo-2" style="swimlane;html=1;startSize=20;horizontal=0;" value="Lane 3" vertex="1">
+          <mxGeometry height="120" width="480" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="629" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-13" edge="1" parent="1" source="w3biVsovSEv6TzyYamuo-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="w3biVsovSEv6TzyYamuo-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-15" parent="1" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" value="Возврат в общую очередь (пул документов для выбора исполнителей)" vertex="1">
+          <mxGeometry height="85" width="137" x="436" y="-115" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-16" edge="1" parent="1" source="w3biVsovSEv6TzyYamuo-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="w3biVsovSEv6TzyYamuo-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Проверка решений в работе" vertex="1">
+          <mxGeometry height="120" width="140" x="800" y="-61" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-18" parent="w3biVsovSEv6TzyYamuo-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 1" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-19" parent="w3biVsovSEv6TzyYamuo-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 2" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w3biVsovSEv6TzyYamuo-20" parent="w3biVsovSEv6TzyYamuo-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
